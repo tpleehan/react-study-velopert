@@ -40,3 +40,7 @@ thumb
 sketch
 
 /.idea*
+
+package.json
+package-lock.json
+yarn.lock
