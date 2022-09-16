@@ -1,0 +1,62 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+/.idea*
+
+package.json
+package-lock.json
+yarn.lock
+/.cache/68/4f68f49f405e64084d0d900eaefea6.json
+/.cache/e8/9e36fc9438f2e5ff6357d874ceba5c.json
+/.cache/ae/9e3265cdb917811cfc4aef72c69b89.json
+/.cache/09/84f9e15656e31f6a5ffcfe63df5820.json
+/.cache/7f/413d04d848102322311d210943e2bc.json
+/.cache/6e/4795000b01371bfb70316140280c1a.json
+/.cache/78/c0091e4c8f95e4b61acff4fe791c40.json
+/.cache/8a/dd4493f4c1412475aa60e50da3a6c2.json
+/.cache/9c/e7b40e1a8c416cffc60968ab74eb7f.json
+/dist/vanillar-redux.9ad09f98.css
+/dist/vanillar-redux.9ad09f98.css.map
+/dist/vanillar-redux.9ad09f98.js
+/dist/vanillar-redux.9ad09f98.js.map
+/dist/vanillar-redux.e31bb0bc.js
+/dist/vanillar-redux.e31bb0bc.js.map
+/dist/index.html
