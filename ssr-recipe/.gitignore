@@ -44,3 +44,7 @@ sketch
 package.json
 package-lock.json
 yarn.lock
+/dist/server.js.LICENSE.txt
+/config/webpack.config.js
+/config/webpack.config.server.js
+/config/webpackDevServer.config.js
