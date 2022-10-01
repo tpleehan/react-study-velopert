@@ -33,7 +33,7 @@ function createPage(root, stateScript) {
     />
     <meta name="theme-color" content="#000000" />
     <title>React App</title>
-    <link href="${manifest['main.css']}" rel="stylesheet" />
+    <link href="${manifest.files['main.css']}" rel="stylesheet" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -41,9 +41,9 @@ function createPage(root, stateScript) {
       ${root}
     </div>
     ${stateScript}
-    <script src="${manifest['runtime-main.js']}"></script>
+    <script src="${manifest.files['runtime-main.js']}"></script>
     ${chunks}
-    <script src="${manifest['main.js']}"></script>
+    <script src="${manifest.files['main.js']}"></script>
   </body>
   </html>
   `;
